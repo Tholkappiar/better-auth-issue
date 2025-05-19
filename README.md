@@ -15,4 +15,4 @@ Frontend :
 - start the frontend : ```yarn dev```
 
 
-Cors already configired ! just add the DB url and 
+Cors already configired !
