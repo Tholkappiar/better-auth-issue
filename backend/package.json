@@ -1,0 +1,29 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "author": "tholkappiar",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "dev": "yarn nodemon ./src/index.ts",
+        "build": "yarn && tsc",
+        "start": "node ./dist/index.js"
+    },
+    "dependencies": {
+        "@better-auth/cli": "^1.2.8",
+        "@prisma/client": "^6.8.2",
+        "better-auth": "^1.2.8",
+        "cors": "^2.8.5",
+        "express": "^5.1.0",
+        "prisma": "^6.8.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.27.1",
+        "@types/cors": "^2.8.18",
+        "@types/express": "^5.0.2",
+        "@types/node": "^22.15.19",
+        "nodemon": "^3.1.10",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3"
+    }
+}
