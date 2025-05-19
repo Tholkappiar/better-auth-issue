@@ -3,6 +3,7 @@
 Backend : 
 
 - include the Database url in the .env - (refer .env.local)
+- install the dependencies
 - generate the prisma client : ```npx prisma generate```
 - migrate the schema : ```npx prisma migrate dev --name init```
 - generate better-auth client : ```npx @better-auth/cli generate```
@@ -10,6 +11,7 @@ Backend :
 
 Frontend :
 
+- install the dependencies
 - start the frontend : ```yarn dev```
 
 
